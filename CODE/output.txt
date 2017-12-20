@@ -1,0 +1,774 @@
+Vishals-MacBook-Air:CODE vishaladdala$ python ML_Project.py train.csv
+Phase 1 of the project:
+Decision Tree accuracy:
+0.782122905028
+Artificial Nueral Network:
+Accuracy                F-Score
+0.554439973172  -  0.580112340711
+Deep Neural Network:
+Accuracy                F-Score
+0.578625083836  -  0.553152805723
+Support Vector Machines:
+Accuracy                F-Score
+0.618025933378  -  0.618025933378
+Multinomial Naive Bayes:
+Accuracy                F-Score
+0.53073384753  -  0.53073384753
+Logistic Regression:
+Accuracy                F-Score
+0.714366756092  -  0.714366756092
+k-NN :
+Accuracy                F-Score
+0.565828303152  -  0.565828303152
+Random Forest Classifier:
+Accuracy                F-Score
+0.827015984798  -  0.829833445115
+AdaBoost:
+Accuracy                F-Score
+0.802991281019  -  0.802991281019
+GradientBoostingClassifier:
+Accuracy                F-Score
+0.819993852001  -  0.831302257992
+Perceptron:
+Accuracy                F-Score
+0.55364017438  -  0.55364017438
+Next we proceed to apply Feature Scaling to see if the performance of our various classifiers improves
+Decision Tree accuracy:
+0.787709497207
+Artificial Nueral Network:
+Accuracy                F-Score
+0.793031522468  -  0.783271294433
+Deep Neural Network:
+Accuracy                F-Score
+0.791742119383  -  0.795868544601
+Support Vector Machines:
+Accuracy                F-Score
+0.79598759222  -  0.79598759222
+Multinomial Naive Bayes:
+Accuracy                F-Score
+0.73565448245  -  0.73565448245
+Logistic Regression:
+Accuracy                F-Score
+0.79590878605  -  0.79590878605
+k-NN :
+Accuracy                F-Score
+0.779065504136  -  0.779065504136
+Random Forest Classifier:
+Accuracy                F-Score
+0.829793762575  -  0.835389000671
+AdaBoost:
+Accuracy                F-Score
+0.802991281019  -  0.802991281019
+GradientBoostingClassifier:
+Accuracy                F-Score
+0.831321819808  -  0.831282696177
+Perceptron:
+Accuracy                F-Score
+0.711349765258  -  0.711349765258
+/Users/vishaladdala/anaconda/lib/python3.6/site-packages/sklearn/cross_validation.py:44: DeprecationWarning: This module was deprecated in version 0.18 in favor of the model_selection module into which all the refactored classes and functions are moved. Also note that the interface of the new CV iterators are different from that of this module. This module will be removed in 0.20.
+  "This module will be removed in 0.20.", DeprecationWarning)
+Accuracy: 86.59%
+XG Boost:
+Accuracy          F-score
+0.815669572994  -  0.815669572994
+Accuracy: 81.56%
+Voting Classifier:
+Accuracy        F-score
+0.787516208361  -  0.787516208361
+accuracy                F-score
+Decision Tree
+ :  0.751011066398    0.756525821596
+NeuralNetwork
+ :  0.784679745137    0.791762799016
+DeepNeuralNetwork
+ :  0.78767493852    0.793111446457
+SupportVectorMachine
+ :  0.79598759222    0.79598759222
+MultinomialNaiveBayes
+ :  0.73565448245    0.73565448245
+LogisticRegression
+ :  0.79590878605    0.79590878605
+KNN
+ :  0.779065504136    0.779065504136
+RandomForest
+ :  0.832630225799    0.828423876593
+AdaBoost
+ :  0.802991281019    0.802991281019
+GradientBoostingClassifier
+ :  0.825627654818    0.822810753409
+Perceptron
+ :  0.711349765258    0.711349765258
+XGBoost
+ :  0.815669572994    0.815669572994
+VotingClassifier
+ :  0.787516208361    0.787516208361
+RandomizedSearchCV took 16.62 seconds for 100 candidates parameter settings.
+Model with rank: 1
+Mean validation score: 0.820 (std: 0.028)
+Parameters: {'bootstrap': False, 'criterion': 'gini', 'max_depth': 10, 'max_features': 4, 'min_samples_leaf': 5, 'min_samples_split': 10}
+
+Model with rank: 1
+Mean validation score: 0.820 (std: 0.030)
+Parameters: {'bootstrap': False, 'criterion': 'entropy', 'max_depth': 10, 'max_features': 3, 'min_samples_leaf': 2, 'min_samples_split': 9}
+
+Model with rank: 3
+Mean validation score: 0.819 (std: 0.026)
+Parameters: {'bootstrap': True, 'criterion': 'entropy', 'max_depth': 10, 'max_features': 3, 'min_samples_leaf': 1, 'min_samples_split': 4}
+
+GridSearchCV took 108.91 seconds for 768 candidate parameter settings.
+Model with rank: 1
+Mean validation score: 0.829 (std: 0.014)
+Parameters: {'bootstrap': True, 'criterion': 'entropy', 'max_depth': None, 'max_features': 3, 'min_samples_leaf': 1, 'min_samples_split': 3}
+
+Model with rank: 1
+Mean validation score: 0.829 (std: 0.037)
+Parameters: {'bootstrap': False, 'criterion': 'entropy', 'max_depth': 10, 'max_features': 3, 'min_samples_leaf': 3, 'min_samples_split': 3}
+
+Model with rank: 3
+Mean validation score: 0.827 (std: 0.026)
+Parameters: {'bootstrap': False, 'criterion': 'entropy', 'max_depth': 10, 'max_features': 1, 'min_samples_leaf': 3, 'min_samples_split': 3}
+
+Model with rank: 3
+Mean validation score: 0.827 (std: 0.033)
+Parameters: {'bootstrap': False, 'criterion': 'entropy', 'max_depth': 100, 'max_features': 3, 'min_samples_leaf': 3, 'min_samples_split': 3}
+
+Model with rank: 3
+Mean validation score: 0.827 (std: 0.031)
+Parameters: {'bootstrap': False, 'criterion': 'entropy', 'max_depth': 100, 'max_features': 3, 'min_samples_leaf': 3, 'min_samples_split': 10}
+
+Model with rank: 3
+Mean validation score: 0.827 (std: 0.024)
+Parameters: {'bootstrap': False, 'criterion': 'entropy', 'max_depth': None, 'max_features': 3, 'min_samples_leaf': 3, 'min_samples_split': 10}
+
+GridSearchCV took 71.14 seconds for 1536 candidate parameter settings.
+Model with rank: 1
+Mean validation score: 0.815 (std: 0.037)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 100, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 27, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.815 (std: 0.037)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 100, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 27, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.815 (std: 0.037)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 100, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 27, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.815 (std: 0.037)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.05, 'max_depth': 6, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 100, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 27, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.815 (std: 0.033)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 100, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.815 (std: 0.033)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 100, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.815 (std: 0.033)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 100, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.815 (std: 0.033)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.05, 'max_depth': 8, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 100, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.815 (std: 0.033)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 100, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.815 (std: 0.033)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 100, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.815 (std: 0.033)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 100, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.815 (std: 0.033)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.05, 'max_depth': 10, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 100, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.815 (std: 0.033)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.05, 'max_depth': 100, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 100, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.815 (std: 0.033)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.05, 'max_depth': 100, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 100, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.815 (std: 0.033)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.05, 'max_depth': 100, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 100, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.815 (std: 0.033)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.05, 'max_depth': 100, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 100, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+GridSearchCV took 1176.17 seconds for 41472 candidate parameter settings.
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 10, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.046)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': 0, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.046)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': 0, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.046)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': 0, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.046)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': 0, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.046)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': 0, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.046)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': 0, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.046)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': 0, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.046)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': 0, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 27, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 27, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 27, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 27, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 27, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 27, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 27, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 6, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 27, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 27, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 27, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 27, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 27, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 27, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 27, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 27, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 27, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 27, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 27, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 27, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 27, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 27, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 27, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 27, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 10, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 27, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.024)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 1337, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 100, 'silent': 1, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.049)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': -999, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 100, 'silent': 2, 'subsample': 0.6}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 27, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 1, 'objective': 'binary:logistic', 'seed': 27, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 27, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 2, 'objective': 'binary:logistic', 'seed': 27, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 27, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 3, 'objective': 'binary:logistic', 'seed': 27, 'silent': 2, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 27, 'silent': 1, 'subsample': 0.8}
+
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.041)
+Parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 100, 'min_child_weight': 5, 'missing': 1, 'n_estimators': 20, 'nthread': 4, 'objective': 'binary:logistic', 'seed': 27, 'silent': 2, 'subsample': 0.8}
+
+GridSearchCV took 24.93 seconds for 150 candidate parameter settings.
+Model with rank: 1
+Mean validation score: 0.829 (std: 0.017)
+Parameters: {'max_depth': 8, 'max_features': 7, 'min_samples_leaf': 20, 'min_samples_split': 100, 'subsample': 0.9}
+
+Model with rank: 2
+Mean validation score: 0.826 (std: 0.023)
+Parameters: {'max_depth': 6, 'max_features': 7, 'min_samples_leaf': 20, 'min_samples_split': 100, 'subsample': 0.8}
+
+Model with rank: 3
+Mean validation score: 0.824 (std: 0.022)
+Parameters: {'max_depth': 6, 'max_features': 7, 'min_samples_leaf': 20, 'min_samples_split': 100, 'subsample': 0.9}
+
+Model with rank: 3
+Mean validation score: 0.824 (std: 0.019)
+Parameters: {'max_depth': 12, 'max_features': 7, 'min_samples_leaf': 20, 'min_samples_split': 100, 'subsample': 0.9}
+
+Model with rank: 3
+Mean validation score: 0.824 (std: 0.026)
+Parameters: {'max_depth': 14, 'max_features': 7, 'min_samples_leaf': 20, 'min_samples_split': 100, 'subsample': 0.9}
+
+Vishals-MacBook-Air:CODE vishaladdala$ 
